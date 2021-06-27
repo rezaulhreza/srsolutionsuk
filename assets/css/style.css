@@ -1432,7 +1432,7 @@ section {
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #0d58ba;
+  color: #062b5b;
   transition: 0.3s;
 }
 
@@ -1665,12 +1665,28 @@ form input[type="text"]{
   width: 30vh;
 
 }
+.tc{
+  margin: 0 5px;
+  padding: 0 20px;
+}
+.tc p{
+font-size: 15px;
+}
+.tc .pageTitle{
+  padding-top: 15px;
+  text-align: center;
+  color: #0d58ba;
+}
+.tc h1{
+  color: #062b5b;
+  font-size: 30px;
+}
 input[type="reset"]{
   background: rgb(255, 123, 0);
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #0d58ba;
+  background: #062b5b;
 }
 #footer .footer-newsletter form input[type="reset"]:hover {
   background: rgba(255, 123, 0, 0.83);
