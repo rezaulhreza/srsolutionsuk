@@ -1338,3 +1338,17 @@ input[type="reset"]{
     padding: 2px 0;
   }
 }
+
+
+.frame{
+
+}
+
+@media only screen and (max-device-width: 680px) {
+  .frame{
+    width: 150px;
+    height: 500px;
+
+  }
+  
+}
